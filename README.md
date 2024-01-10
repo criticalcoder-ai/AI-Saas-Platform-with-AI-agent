@@ -6,7 +6,9 @@ A modern Learning Management System (LMS) built as a SaaS platform, supercharged
 ## 📖 screenshots
 <div align="center">
 <img src="/screenshots/converso (1).png" alt="Screen 1" width="100%"/>
-<div>
+</div>
+
+
 <div align="center">
 
 <table>
@@ -26,6 +28,8 @@ A modern Learning Management System (LMS) built as a SaaS platform, supercharged
 </table>
 
 </div>
+
+
 ## 🗂 Table of Contents
 
 1. [Overview](#overview)
