@@ -155,9 +155,6 @@ Contributions are welcome! Fork the repo, submit PRs, or open issues. Your input
 
 ---
 
-## 📄 License
-
-📜 MIT, Apache 2.0, or add your custom license here.
 
 ---
 
