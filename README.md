@@ -3,7 +3,28 @@
 A modern Learning Management System (LMS) built as a SaaS platform, supercharged by AI-powered learning companions. Users can interact via voice or text, track progress, and personalize their experience through secure and scalable features.
 
 ---
+## 📖 screenshots
 
+<div align="center">
+
+<table>
+  <tr>
+    <td><img src="/screenshots/converso (1).png" alt="Screen 1" width="100%"/></td>
+    <td><img src="/screenshots/converso (2).png" alt="Screen 1" width="100%"/></td>
+    <td><img src="/screenshots/converso (3).png" alt="Screen 1" width="100%"/></td>
+    <td><img src="/screenshots/converso (4).png" alt="Screen 1" width="100%"/></td>
+    <td><img src="/screenshots/converso (5).png" alt="Screen 1" width="100%"/></td>
+  </tr>
+  <tr>
+    <td><img src="/screenshots/converso (6).png" alt="Screen 1" width="100%"/></td>
+    <td><img src="/screenshots/converso (7).png" alt="Screen 1" width="100%"/></td>
+    <<td><img src="/screenshots/converso (8).png" alt="Screen 1" width="100%"/></td>
+    <td><img src="/screenshots/converso (9).png" alt="Screen 1" width="100%"/></td>
+    <td><img src="/screenshots/converso (10).png" alt="Screen 1" width="100%"/></td>
+  </tr>
+</table>
+
+</div>
 ## 🗂 Table of Contents
 
 1. [Overview](#overview)
