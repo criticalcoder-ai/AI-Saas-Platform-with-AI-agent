@@ -4,12 +4,13 @@ A modern Learning Management System (LMS) built as a SaaS platform, supercharged
 
 ---
 ## 📖 screenshots
-
+<div align="center">
+<img src="/screenshots/converso (1).png" alt="Screen 1" width="100%"/>
+<div>
 <div align="center">
 
 <table>
   <tr>
-    <td><img src="/screenshots/converso (1).png" alt="Screen 1" width="100%"/></td>
     <td><img src="/screenshots/converso (2).png" alt="Screen 1" width="100%"/></td>
     <td><img src="/screenshots/converso (3).png" alt="Screen 1" width="100%"/></td>
     <td><img src="/screenshots/converso (4).png" alt="Screen 1" width="100%"/></td>
