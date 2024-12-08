@@ -1,12 +1,3 @@
-Absolutely! Here's the **complete, professional, and visually attractive `README.md`** file with:
-
-* Emojis and icons for technologies 🧩
-* Clean formatting ✨
-* Clear sections with a table of contents 🗂
-* Simplified feature explanations without code or function names
-
----
-
 # 🎓 LMS SaaS Platform with AI Agents
 
 A modern Learning Management System (**LMS**) built as a **SaaS** platform, enhanced with AI-powered **Companions**. Users can create personalized AI agents, interact via text or voice, and manage learning experiences dynamically. The platform features secure authentication, subscription-based access, and modern dev practices.
