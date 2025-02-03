@@ -1,8 +1,8 @@
 
-const  campanionSession = () => {
+const  companionSession = () => {
   return (
     <div>campanionsLibrary</div>
   )
 }
 
-export default campanionSession
+export default companionSession
