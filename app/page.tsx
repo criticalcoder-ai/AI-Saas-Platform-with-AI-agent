@@ -1,18 +1,31 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import CompanionCard from "@/components/CompanionCard";
+import CompanionsList from "@/components/CompanionsList";
+import CTA from "@/components/CTA ";
+import {recentSessions} from "@/constants";
 
-const Page = () => {
+
+const Page = async () => {
+   
   return (
-    <div>
-  <h1>welcome to my sass</h1>
- 
- <Button>
+    <main>
+      <h1>Popular Companions</h1>
 
-  lets get started
-  
- </Button>
+        <section className="home-section">
+           
+                <CompanionCard
+                  
+                />
+         
 
-    </div>
+        </section>
+
+        <section className="home-section">
+            <CompanionsList
+              
+            />
+            <CTA />
+        </section>
+    </main>
   )
 }
 
