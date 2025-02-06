@@ -13,7 +13,7 @@ const Page = async () => {
         <section className="home-section">
            
                 <CompanionCard
-                  
+                 
                 />
          
 
