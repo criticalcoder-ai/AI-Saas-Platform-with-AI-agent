@@ -17,3 +17,8 @@ export const createCompanion = async (formData: CreateCompanion) => {
 
     return data[0];
 }
+
+
+
+export const newCompanionPermissions = async () => {
+}
