@@ -1,11 +1,15 @@
 import type { NextConfig } from "next";
-import { hostname } from "os";
 
 const nextConfig: NextConfig = {
- remotePatterns :[
-     {hostname : 'img.clerk.com'}
-
- ]
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.clerk.com',
+        pathname: '**', // هذا يعني السماح بجميع المسارات
+      },
+    ],
+  },
 };
 
 export default nextConfig;
