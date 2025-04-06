@@ -13,14 +13,13 @@ const NewCompanion = async () => {
 
     return (
         <main className="min-lg:w-1/3 min-md:w-2/3 items-center justify-center">
-            {/* {canCreateCompanion ? ( */}
+            {canCreateCompanion ? (
                 <article className="w-full gap-4 flex flex-col">
                     <h1>Companion Builder</h1>
 
                     <CompanionForm />
                 </article>
-                {/* ) : (
-                    <article className="companion-limit">
+                ):( <article className="companion-limit">
                         <Image src="/images/limit.svg" alt="Companion limit reached" width={360} height={230} />
                         <div className="cta-badge">
                             Upgrade your plan
@@ -31,7 +30,7 @@ const NewCompanion = async () => {
                             Upgrade My Plan
                         </Link>
                     </article>
-                )} */}
+                )} 
         </main>
     )
 }
