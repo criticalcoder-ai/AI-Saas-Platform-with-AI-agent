@@ -29,7 +29,7 @@ const CompanionCard = ({
       <div className="flex justify-between items-center">
         <div className="subject-badge">{subject}</div>
         <button className="companion-bookmark"
-        //  onClick={handleBookmark}  
+         onClick={handleBookmark}  
          >
           <Image
             src={
