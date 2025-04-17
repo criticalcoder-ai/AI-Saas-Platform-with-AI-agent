@@ -4,7 +4,7 @@ import {getSubjectColor} from "@/lib/utils";
 import SearchInput from "@/components/SearchInput";
 import SubjectFilter from "@/components/SubjectFilter";
 
-const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
+const Companions = async ({ searchParams }: SearchParams) => {
     const filters = await searchParams;
     const subject = filters.subject ? filters.subject : '';
     const topic = filters.topic ? filters.topic : '';
@@ -33,4 +33,4 @@ const CompanionsLibrary = async ({ searchParams }: SearchParams) => {
     )
 }
 
-export default CompanionsLibrary
+export default Companions
