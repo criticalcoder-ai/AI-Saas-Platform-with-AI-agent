@@ -1,121 +1,85 @@
-# 🎓 LMS SaaS Platform with AI Agents
+# LMS SaaS Platform with AI Agents
 
-A modern Learning Management System (**LMS**) built as a **SaaS** platform, enhanced with AI-powered **Companions**. Users can create personalized AI agents, interact via text or voice, and manage learning experiences dynamically. The platform features secure authentication, subscription-based access, and modern dev practices.
+A modern Learning Management System (LMS) built as a SaaS platform, supercharged by AI-powered learning companions. Users can interact via voice or text, track progress, and personalize their experience through secure and scalable features.
 
 ---
 
 ## 🗂 Table of Contents
 
-1. [Overview](#-overview)
-2. [Features](#-features)
-3. [Tech Stack](#-tech-stack)
-4. [Getting Started](#-getting-started)
-5. [Environment Variables](#-environment-variables)
-6. [Key Modules](#-key-modules)
-7. [Project Structure](#-project-structure)
-8. [Contributing](#-contributing)
-9. [License](#-license)
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+4. [Getting Started](#getting-started)
+5. [Environment Variables](#environment-variables)
+6. [Project Structure](#project-structure)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ---
 
 ## 📖 Overview
 
-This LMS platform empowers users to:
+Imaginfy LMS empowers users to:
 
-* Create and manage AI-powered learning companions
-* Interact with companions via chat or voice
-* Track their session history
-* Bookmark favorite agents
-* Enjoy a clean and responsive UI
-* Access features based on subscription level
-
-It’s built using a cutting-edge tech stack to ensure scalability, maintainability, and performance.
+- Create and manage AI companions
+- Interact through real-time voice or text
+- Track learning history and bookmark favorites
+- Access features based on subscription levels
 
 ---
 
 ## 🚀 Features
 
-### 🤖 AI Companion Builder
-
-Create personalized AI agents tailored to specific learning subjects, voice styles, and interaction preferences.
-
-### 🔐 Secure Authentication
-
-Handles user sign-up, login, and access management with strong session security.
-
-### 💳 Subscription & Permissions
-
-Different user tiers unlock different capabilities (like number of companions or session length). Upgrade prompts are shown when limits are reached.
-
-### 🔎 Companion Discovery
-
-Users can browse, search, and filter through available AI companions, including their own and others (if public).
-
-### 🕘 Session History
-
-Users can view and revisit past interactions with companions, helping them track their learning journey.
-
-### 📌 Bookmarks
-
-Save and quickly access frequently used or favorite companions.
-
-### 🎤 Voice Interaction (Vapi Integration)
-
-Talk directly with companions using real-time voice interaction powered by **Vapi**. Microphone input and AI responses make the learning experience immersive.
-
-### 🛡️ Error Monitoring (Sentry Integration)
-
-**Sentry** monitors performance and automatically reports frontend and backend errors to keep the platform stable and secure.
-
-### 💻 Modern UI
-
-Built with a responsive, fast, and accessible interface using **Tailwind CSS** and a clean component library.
+- **AI Companion Builder** – Customize learning agents by subject, voice style, and purpose
+- **Authentication** – Secured via Clerk for managing user sessions
+- **Subscription & Access Control** – Plans define companion count and feature limits
+- **Companion Discovery** – Browse, search, and filter existing companions
+- **Session History** – Track and revisit learning interactions
+- **Bookmarks** – Pin your favorite learning companions
+- **Voice Interaction** – Real-time chat with companions via [Vapi](https://vapi.ai)
+- **Error Monitoring** – Powered by [Sentry](https://sentry.io) for frontend/backend stability
+- **Modern UI** – Tailwind CSS and Shadcn UI for sleek, accessible design
 
 ---
 
 ## 🧰 Tech Stack
 
-| Area                | Tech Used              | 🔍 Purpose                                                         |
-| ------------------- | ---------------------- | ------------------------------------------------------------------ |
-| 🧱 Framework        | **Next.js** ⚛️         | Full-stack React framework with App Router, SSR, and API routes    |
-| 🧑‍💻 Language      | **TypeScript** 🟦      | Type-safe development for better reliability and maintainability   |
-| 🎨 Styling          | **Tailwind CSS** 🌬    | Utility-first CSS framework for clean and fast UI development      |
-| 🧩 UI Components    | **Shadcn/ui** 🧩       | Pre-styled, accessible components built with Tailwind and Radix UI |
-| 🔐 Authentication   | **Clerk** 🔑           | Handles user auth, sessions, and user management                   |
-| 🧬 Backend/Database | **Supabase** 🐘        | PostgreSQL-based backend with auth, storage, and APIs              |
-| 🧠 AI Voice API     | **Vapi** 🎙            | Enables real-time voice interactions with AI companions            |
-| 🛠 Monitoring       | **Sentry** 🛡          | Error tracking and performance monitoring                          |
-| 📝 Form Handling    | **React Hook Form** 🧾 | Efficient form state and validation                                |
-| ✅ Validation        | **Zod** ✔️             | Schema-based input validation                                      |
+| Area               | Tech Used                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+| 🧱 Framework        | ![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)        |
+| 🧑‍💻 Language       | ![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white) |
+| 🎨 Styling          | ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwind-css&logoColor=white) |
+| 🔐 Authentication   | ![Clerk](https://img.shields.io/badge/Clerk-ffffff?logo=clerk&logoColor=black) |
+| 🐘 Backend (DB)     | ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white) |
+| 🎙 Voice API        | ![Vapi](https://img.shields.io/badge/Vapi-000000?logo=voicemod&logoColor=white) |
+| 🛡 Monitoring        | ![Sentry](https://img.shields.io/badge/Sentry-362D59?logo=sentry&logoColor=white) |
+| 🧾 Form Handling     | React Hook Form + Zod                                                    |
 
 ---
 
 ## ⚙️ Getting Started
 
-### 📦 Prerequisites
-
-* Node.js `v18.x` or `v20.x`
-* `npm`, `yarn`, or `pnpm`
-
-### 🛠 Installation
-
 ```bash
-git clone https://github.com/your-username/lms_saas_platform_with_ai_agents.git
+# Clone the repo
+https://github.com/your-username/lms_saas_platform_with_ai_agents.git
+
+# Navigate into the project
 cd lms_saas_platform_with_ai_agents
+
+# Install dependencies
 pnpm install
-```
 
-### 🧪 Start Development Server
-
-```bash
+# Run development server
 pnpm dev
 ```
+
+Then visit: [http://localhost:3000](http://localhost:3000)
 
 ---
 
 ## 🔐 Environment Variables
 
-Create a `.env.local` file with the following:
+Create a `.env.local` file in the root and include:
 
 ```env
 # Clerk (Authentication)
@@ -123,15 +87,15 @@ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
 CLERK_SECRET_KEY=your_secret
 
 # Supabase (Database)
-NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
+NEXT_PUBLIC_SUPABASE_URL=your_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
 
-# Vapi (Voice Interaction)
-NEXT_PUBLIC_VAPI_KEY=your_vapi_key
+# Vapi (Voice AI)
+NEXT_PUBLIC_VAPI_KEY=your_key
 
-# Sentry (Error Monitoring)
-SENTRY_DSN=your_backend_dsn
-NEXT_PUBLIC_SENTRY_DSN=your_frontend_dsn
+# Sentry (Monitoring)
+SENTRY_DSN=your_server_dsn
+NEXT_PUBLIC_SENTRY_DSN=your_client_dsn
 
 # App URL
 NEXT_PUBLIC_APP_URL=http://localhost:3000
@@ -139,53 +103,36 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 
 ---
 
-## 🧱 Key Modules
-
-| Module/File                        | Description                                           |
-| ---------------------------------- | ----------------------------------------------------- |
-| `app/companions/new/page.tsx`      | Companion creation page, checks auth and permissions. |
-| `components/CompanionForm.tsx`     | Form UI for creating/editing companions.              |
-| `lib/actions/companion.actions.ts` | Handles all database and server-side logic.           |
-| Authentication Routes              | Managed through Clerk.                                |
-| Subscription System                | Limits and upgrades based on user plans.              |
-
----
-
 ## 📁 Project Structure
 
-```
+```bash
 lms_saas_platform_with_ai_agents/
-├── app/                    # App routes and pages
-│   ├── (auth)/             # Auth routes (sign-in, sign-up)
-│   ├── companions/         # Companion-related routes
-│   │   └── new/
-│   ├── subscription/       # Subscription management
-├── components/             # Reusable React components
-├── lib/                    # Actions, utils, API handlers
-│   └── actions/
+├── app/                    # Application routes
+│   ├── (auth)/             # Auth pages (login, signup)
+│   ├── companions/         # Create, list, interact with AI companions
+│   ├── subscription/       # Manage user subscriptions
+├── components/             # Shared React components
+├── lib/                    # Actions, database logic, utilities
 ├── public/                 # Static assets
-├── prisma/                 # DB schema (if using Prisma)
-├── .env.local              # Environment variables
-├── tailwind.config.ts      # Tailwind configuration
-├── tsconfig.json           # TypeScript configuration
-├── next.config.js          # Next.js configuration
-└── package.json            # Dependencies & scripts
+├── .env.local              # Local environment variables
+├── tailwind.config.ts      # Tailwind config
+├── tsconfig.json           # TypeScript config
+├── next.config.js          # Next.js config
+└── package.json            # Project metadata and scripts
 ```
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests are welcome! If you have ideas to improve the platform or spot bugs, feel free to fork and contribute.
+Contributions are welcome! Fork the repo, submit PRs, or open issues. Your input improves the platform.
 
 ---
 
 ## 📄 License
 
-📜 *Specify your license here — e.g., MIT, Apache 2.0, or "All Rights Reserved" if private.*
+📜 MIT, Apache 2.0, or add your custom license here.
 
 ---
 
-> 🧠 *This README was crafted to reflect the current structure and direction of the LMS SaaS Platform. Keep it up-to-date as the project evolves!*
-
----
+> Built with ❤️ to modernize education with AI-driven interactivity. Keep evolving it! 🚀
